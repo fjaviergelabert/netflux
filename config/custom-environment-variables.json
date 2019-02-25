@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "netflux_jwtPrivateKey"
+  "jwtPrivateKey": "netflux_jwtPrivateKey",
+  "db": "netflux_db"
 }
