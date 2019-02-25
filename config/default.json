@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "netflux_jwt",
+  "db": "mongodb://localhost/netflux"
+}
