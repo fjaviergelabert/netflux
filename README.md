@@ -1,5 +1,5 @@
 # Netflux
-Movie Rental store basic project. RESTful API built with Node, Express, and MongoDB.
+Simple Movie Rental store project. RESTful API built with Node, Express, and MongoDB.
 
 Project setup:
   1. Install Node (Node version used for this project: 10.14.2).
