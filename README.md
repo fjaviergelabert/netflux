@@ -1,6 +1,5 @@
 # Netflux
-
-Node.js basic API to manage a Movie Rental store.
+Movie Rental store basic RESTful API with Node, Express, and MongoDB.
 
 Project setup:
 1 - Install Node (Node version used for this project: 10.14.2).
