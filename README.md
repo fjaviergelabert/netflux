@@ -9,5 +9,5 @@ Project setup:
 
 Run "npm test" if you want to run the tests for the project, or "npm run test-coverage" to get a html file (directory that will be used: /coverage/lcov-report/index.html) and a table of the test coverage in the console.
 
-Live demo: https://netflux-demo.herokuapp.com/api/movies  
+Live demo: https://netflux-api.herokuapp.com/api/movies  
 API documentation: https://documenter.getpostman.com/view/6787528/S11KNHgz
