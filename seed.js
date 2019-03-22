@@ -5,6 +5,21 @@ const { User } = require('./models/user');
 const { Customer } = require('./models/customer');
 const mongoose = require('mongoose');
 const config = require('config');
+const bcrypt = require('bcrypt');
+
+const users = [
+  {
+    name: 'Admin',
+    email: 'admin@admin.com',
+    password: '12345',
+    isAdmin: true
+  },
+  {
+    name: 'Guest',
+    email: 'guest@guest.com',
+    password: '12345'
+  }
+];
 
 const data = [
   {
@@ -49,6 +64,12 @@ async function seed() {
   await Genre.deleteMany({});
   await Customer.deleteMany({});
   await User.deleteMany({});
+
+  const salt = await bcrypt.genSalt(10);
+  for (const user of users) {
+    user.password = await bcrypt.hash(user.password, salt);
+    await new User(user).save();
+  }
 
   for (let genre of data) {
     const { _id: genreId } = await new Genre({ name: genre.name }).save();
