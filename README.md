@@ -2,7 +2,7 @@
 
 Simple Movie Rental store project. RESTful API built with Node, Express, and MongoDB.
 
-### Live demos
+### Live demo
 
 URL: https://netflux-api.herokuapp.com/api/movies  
 
