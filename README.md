@@ -4,8 +4,11 @@ Simple Movie Rental store project. RESTful API built with Node, Express, and Mon
 
 ### Live demos
 
-Live demo: https://netflux-api.herokuapp.com/api/movies  
-API documentation: https://documenter.getpostman.com/view/6787528/S11KNHgz
+URL: https://netflux-api.herokuapp.com/api/movies  
+
+### API documentation
+
+URL: https://documenter.getpostman.com/view/6787528/S11KNHgz
 
 ## Project setup
 
