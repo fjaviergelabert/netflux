@@ -1,4 +1,4 @@
-# Netflux
+# Netflux-Api
 
 Simple Movie Rental store project. RESTful API built with Node, Express, and MongoDB.
 
